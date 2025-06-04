@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Corran Lachèvre</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      width: 100%;
+    }
+    nav a {
+      margin: 0 1em;
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 2em;
+      max-width: 1000px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 1.5em;
+      margin: 1em auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 1em;
+    }
+    .skills span {
+      display: inline-block;
+      background: #007BFF;
+      color: white;
+      padding: 0.3em 0.6em;
+      margin: 0.3em;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    .card ul {
+      list-style-position: inside;
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+      text-align: left;
+    }
+    .contact-form {
+      text-align: center;
+    }
+    .contact-info {
+      font-size: 1.1em;
+    }
+    .contact-info p {
+      margin: 0.4em 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mon Portfolio</h1>
+    <nav>
+      <a href="#presentation">Présentation</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="presentation" class="card">
+    <h2>Présentation</h2>
+    <p>Bonjour ! Je m'appelle Corran Lachèvre, étudiant en BTS SIO option SISR (Solutions d’Infrastructure, Systèmes et Réseaux) à l'école ESICAD de Montpellier. Je suis en alternance au sein du Ministère de l'Intérieur, ce qui me permet de mettre en pratique mes compétences techniques dans un environnement professionnel exigeant. Avant le BTS, j'ai obtenu un Bac STI2D option SIN. Passionné par les technologies, les réseaux et la cybersécurité, je développe mes compétences à travers mes études et mon expérience en entreprise.</p>
+    <div class="skills">
+      <h3 style="width: 100%; text-align: center;">Compétences :</h3>
+      <span>Support informatique</span>
+      <span>HTML / CSS / JS</span>
+      <span>Anglais</span>
+    </div>
+  </section>
+
+  <section id="parcours" class="card">
+    <h2>Parcours Scolaire</h2>
+    <ul>
+      <li><strong>2023 - 2025 :</strong> BTS SIO option SISR en alternance à ESICAD Montpellier</li>
+      <li><strong>2020 - 2022 :</strong> Bac STI2D option SIN</li>
+    </ul>
+  </section>
+
+  <section id="projets" class="card">
+    <h2>Mes Projets</h2>
+    <ul>
+      <li><strong>Création et mise en place d'un réseau informatique (serveur + machine)</strong></li>
+    </ul>
+  </section>
+
+  <section id="contact" class="card contact-form">
+    <h2>Me Contacter</h2>
+    <div class="contact-info">
+      <p>Adresse mail personnelle : <a href="mailto:corran.lachevre@gmail.com">corran.lachevre@gmail.com</a></p>
+      <p>Adresse mail professionnelle : <a href="mailto:corran.lachevre@interieur.gouv.fr">corran.lachevre@interieur.gouv.fr</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Corran Lachèvre - Portfolio BTS SIO SISR</p>
+  </footer>
+
+</body>
+</html>
